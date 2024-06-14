@@ -1,0 +1,599 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MI</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+  <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body class="bg-[#222222]">
+
+  <section
+    class="container oveflow-hidden flex flex-col bg-[url('./assets/bike.svg')] bg-right bg-no-repeat min-h-[100vh]">
+
+    <div class="w-[500px] h-[500px] rounded-lg bg-dog fixed right-0 blur-[400px] rounded-l-[200px]"></div>
+    <!--////////////////// Navbar starts////////////////// -->
+    <nav class="w-full h-[10vh]">
+      <ul class="w-full h-full text-white flex gap-[1.5rem] justify-start items-center">
+        <li class="mr-[3rem]">
+          <a href="#">
+            <img src="./assets/logo.svg" alt="">
+          </a>
+        </li>
+        <li><a href="#about">О продукте</a></li>
+        <li><a href="#section2">Внешний вид</a></li>
+        <li><a href="#section3">Безопасность</a></li>
+        <li><a href="#section4"> Отзывы</a></li>
+        <li><a href="#section5">FAQ</a></li>
+        <li class="ml-auto">
+          <button
+            class="bg-[#F1F1F1] h-[50px] px-[2rem] rounded-[65px] text-[#151515] leading-[24px] font-bold hover:bg-[#151515] hover:text-white transition-all duration-200">Купить</button>
+        </li>
+      </ul>
+    </nav>
+    <!--////////////////// Navbar ends////////////////// -->
+
+    <div class="flex-1 flex flex-col gap-[2rem] items-start justify-center">
+      <h1 class="font-[600] text-[80px] leading-[80px] text-[#F1F1F1]">Стильный электросамокатс мощным аккумулятором
+      </h1>
+      <p class="text-[#FF4C0D] text-[30px]">
+        Улучшенная производительность <br> для дальних путешествий. <br> Работает так же просто, <br> как и выглядит
+      </p>
+
+      <div class="border border-[#F1F1F1] h-[54px] rounded-[65px]">
+        <button class="bg-[#F1F1F1] h-full  text-[#151515] font-bold rounded-[65px] px-[35px]">Белый</button>
+        <button class="text-[#F1F1F1] font-bold px-[35px]">Черный</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--- ---------------Section2 starts--------------- -->
+  <section class="container section ">
+
+    <h1 class="font-[500] text-[45px] leading-[50px] text-[#F1F1F1]">
+      Мощная батарея и экономичный расход <br> заряда позволяют преодолевать <br> расстояния до 45 км
+    </h1>
+
+    <div class="grid grid-cols-3 my-[2rem]">
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Три режима скорости
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Три режима езды позволяют почуствовать себя комфортно в любой ситуации. Режим «S» увеличитвает скорость, если
+          опаздываете на работу. Во время прогулки по парку активируйте режим «D». Включите режим «Пешеход», когда
+          двигаетесь
+          по оживлённой улице.
+        </p>
+
+      </div>
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Система восстановления энергии
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Во время торможения и движения по инерции система преобразовывает кинетическую энергию в электрическую,
+          позволяя
+          увеличить общий запас хода самоката.
+        </p>
+
+      </div>
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Мощная батарея
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Самокат оснащен аккумулятором емкостью 12 800 мАч. Это позволяет преодолевать расстояния до 45 км без
+          подзарядки.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="flex gap-[2rem] ">
+
+      <div class="bg-[url('./assets/1.jpg')] bg-no-repeat bg-cover w-[760px] h-[400px] rounded-[15px]"></div>
+
+      <div class="bg-[url('./assets/2.jpg')] bg-no-repeat bg-cover w-[360px] h-[300px] rounded-[15px]"></div>
+
+    </div>
+
+
+  </section>
+  <!----------------- Section2 ends--------------- -->
+
+
+  <!-- ///////////////////Section3 starts/////////////////// -->
+  <section class="section  bg-[url('./assets/3.jpg')] bg-no-repeat bg-cover h-[600px] w-full">
+    <div class="container flex flex-col justify-around h-full">
+
+      <img class="w-[60px]" src="./assets/logo.svg" alt="">
+
+      <div>
+        <h1 class="font-bolder text-[45px] leading-[49px] text-[#f1f1f1] ">Высокая скорость <br> передвижения</h1>
+
+        <p class="text-[#f1f1f1] font-[400] text-[14px] leading-[21px] mt-[2rem]">
+          Двигатель мощностью до 600 Вт позволяет <br> развивать скорость до 25 км/ч.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- ///////////////////Section3 ends/////////////////// -->
+
+
+  <!--()()()()())))))()()() Section 4()()()()())))))()()()  -->
+  <section class="container  section">
+
+    <h1 class="font-bolder text-[45px] leading-[50px] text-[#FF4C0D]">
+      Лаконичный современный дизайн,
+      <br> в котором нет ничего лишнего
+    </h1>
+
+    <div class="grid grid-cols-2 gap-[2rem] my-[2rem]">
+
+      <div
+        class="bg-[url('./assets/4.png')] bg-no-repeat bg-cover p-[3vmax] rounded-[15px] h-[550px] flex flex-col justify-end gap-[1rem]">
+
+        <h3 class="text-[20px] text-[#F1F1F1] leading-[24px] font-bolder">Минималистичный дизайн</h3>
+
+        <p class="text-[14px] text-[#f1f1f1] leading-[21px] font-[400]">
+          Рама, компоненты и аксессуары скутера выдержаны в едином стиле, где удобство пользователя выходит на первое
+          место.
+          Одного прикосновения достаточно, чтобы запустить самокат.
+        </p>
+
+      </div>
+
+      <div
+        class="bg-[url('./assets/4.png')] bg-no-repeat bg-cover p-[3vmax] rounded-[15px] h-[550px] flex flex-col justify-end gap-[1rem]">
+
+        <h3 class="text-[20px] text-[#F1F1F1] leading-[24px] font-bolder">Минималистичный дизайн</h3>
+
+        <p class="text-[14px] text-[#f1f1f1] leading-[21px] font-[400]">
+          Рама, компоненты и аксессуары скутера выдержаны в едином стиле, где удобство пользователя выходит на первое
+          место.
+          Одного прикосновения достаточно, чтобы запустить самокат.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--()()()()())))))()()() Section 4 ()()()()())))))()()() -->
+
+  <!--- ---------------Section5 starts--------------- -->
+  <section class="container section ">
+
+    <h1 class="font-[500] text-[45px] leading-[50px] text-[#FF4C0D]">
+      Заботится о вашей безопасности
+    </h1>
+
+    <div class="grid grid-cols-4 my-[2rem]">
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Три режима <br> скорости
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Три режима езды позволяют почуствовать себя комфортно в любой ситуации. Режим «S» увеличитвает скорость, если
+          опаздываете на работу. Во время прогулки по парку активируйте режим «D». Включите режим «Пешеход», когда
+          двигаетесь
+          по оживлённой улице.
+        </p>
+
+      </div>
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Три режима <br> скорости
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Три режима езды позволяют почуствовать себя комфортно в любой ситуации. Режим «S» увеличитвает скорость, если
+          опаздываете на работу. Во время прогулки по парку активируйте режим «D». Включите режим «Пешеход», когда
+          двигаетесь
+          по оживлённой улице.
+        </p>
+
+      </div>
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Система восстановления <br> энергии
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Во время торможения и движения по инерции система преобразовывает кинетическую энергию в электрическую,
+          позволяя
+          увеличить общий запас хода самоката.
+        </p>
+
+      </div>
+
+      <div class="group opacity-50 hover:opacity-100 cursor-pointer transition-all duration-300">
+
+        <h2 class="font-bolder text-[20px] leading-[24px] text-[#F1F1F1] px-[1rem]">
+          Отражатели спереди, <br> сбоку и сзади
+        </h2>
+
+        <div class="w-full group-hover:bg-[#FF4C0D]  h-[3px] bg-[#F1F1F1] my-[1rem] transition-all duration-300"></div>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] px-[1rem]">
+          Самокат оснащен аккумулятором емкостью 12 800 мАч. Это позволяет преодолевать расстояния до 45 км без
+          подзарядки.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="flex gap-[2rem] ">
+
+      <div class="bg-[url('./assets/6.png')] bg-no-repeat bg-cover w-[760px] h-[400px] rounded-[15px]"></div>
+
+      <div class="bg-[url('./assets/7.png')] bg-no-repeat bg-cover w-[360px] h-[300px] rounded-[15px]"></div>
+
+    </div>
+
+
+  </section>
+  <!----------------- Section5 ends--------------- -->
+
+
+  <!-- @@@@@@@@@@@@@@@@@@@@@Section6 starts@@@@@@@@@@@@@@@@@@@@@-->
+  <section class="section relative container min-h-[70vh] flex flex-col justify-around">
+
+    <div class="flex flex-col gap-[2rem]">
+      <h1 class="font-[500] text-[45px] leading-[50px] text-[#FF4C0D]">
+        Мобильное приложение <br> Mi Home
+      </h1>
+
+      <p class="text-[14px] max-w-[358px] text-[#f1f1f1] leading-[21px] font-[400]">
+        Подключите самокат к мобильному приложению Mi Home и используйте его для блокировки и разблокировки самоката,
+        а так же
+        просмотра основных данных: пробег, скорость, уровень заряда аккумулятора.
+      </p>
+
+    </div>
+
+    <div class="flex  gap-[2rem] items-center">
+      <button
+        class="w-[120px] h-[40px] bg-[url('./assets/apple.svg')] hover:opacity-100 opacity-70 transition-all duration-200"></button>
+
+      <button
+        class="w-[135px] h-[40px] bg-[url('./assets/google.svg')] hover:opacity-100 opacity-70 transition-all duration-200"></button>
+    </div>
+
+
+    <img src="./assets/phone.png" class="w-[400px] absolute right-[200px] bottom-0 " alt="">
+
+  </section>
+  <!-- @@@@@@@@@@@@@@@@@@@@@Section6 ends@@@@@@@@@@@@@@@@@@@@@ -->
+
+  <!-- Section&&&&&&&&&&&&&&&& 7 starts&&&&&&&&&&&&&&&& -->
+  <section class="section relative h-[600px] w-full bg-[url('./assets/9.jpg')] bg-no-repeat bg-cover">
+
+    <div class="w-full h-full bg-gradient-to-r from-[#E8B577]/70 to-[transparent] absolute left-0 top-0">
+
+      <div class="container h-full flex flex-col justify-around items-start">
+        <img src="/assets/logo-red.png" alt="">
+
+        <div>
+          <h1 class="font-bolder text-[45px] leading-[49px] text-[#FF4C0D] ">О бренде Xiaomi</h1>
+
+          <p class="text-[#151515] w-[460px] font-[400] text-[14px] leading-[21px] mt-[2rem]">
+            Компания Xiaomi была основана предпринимателем Лей Цзюнем в 2010 году под девизом - «Инновации для всех».
+            Мы верим, что высококачественные продукты и передовые технологии должны быть доступны каждому.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+  <!-- Section&&&&&&&&&&&&&&&& 7 ends&&&&&&&&&&&&&&&& -->
+
+
+  <!-- ============Section8 starts ============ -->
+  <section class="flex relative flex-col items-start gap-[2rem]">
+    <h1 class="container font-[500] text-[45px] leading-[50px] text-[#FF4C0D]">Отзывы о Mi Scooter Pro 2</h1>
+
+    <div class="w-full flex  p-[1rem] w-full overflow-auto">
+
+      <div class="flex gap-6">
+        <!-- Card starts -->
+        <div
+          class="card flex flex-col gap-[1rem] items-start justify-start w-[460px] rounded-[15px] bg-[#151515] px-[2rem] py-[1rem] cursor-pointer">
+
+          <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">Михаил Сафонов
+          </h2>
+
+          <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+            Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая
+            резина и
+            дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата,
+            развесовка).
+            В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+          </p>
+
+        </div>
+        <!-- Card ends -->
+
+        <!-- Card starts -->
+        <div
+          class="card flex flex-col gap-[1rem] items-start justify-start w-[460px] rounded-[15px] bg-[#151515] px-[2rem] py-[1rem] cursor-pointer">
+
+          <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">Михаил Сафонов
+          </h2>
+
+          <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+            Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая
+            резина и
+            дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата,
+            развесовка).
+            В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+          </p>
+
+        </div>
+        <!-- Card ends -->
+        <!-- Card starts -->
+        <div
+          class="card flex flex-col gap-[1rem] items-start justify-start w-[460px] rounded-[15px] bg-[#151515] px-[2rem] py-[1rem] cursor-pointer">
+
+          <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">Михаил Сафонов
+          </h2>
+
+          <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+            Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая
+            резина и
+            дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата,
+            развесовка).
+            В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+          </p>
+
+        </div>
+        <!-- Card ends -->
+        <!-- Card starts -->
+        <div
+          class="card flex flex-col gap-[1rem] items-start justify-start w-[460px] rounded-[15px] bg-[#151515] px-[2rem] py-[1rem] cursor-pointer">
+
+          <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">Михаил Сафонов
+          </h2>
+
+          <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+            Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая
+            резина и
+            дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата,
+            развесовка).
+            В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+          </p>
+
+        </div>
+        <!-- Card ends -->
+      </div>
+
+    </div>
+
+    <div class="container">
+      <button
+        class="bg-[#F1F1F1] h-[50px] px-[2rem] rounded-[65px] text-[#151515] leading-[24px] font-bold hover:bg-[#151515] hover:text-white transition-all duration-200">Оставить
+        отзыв</button>
+    </div>
+
+    <div class="flex absolute gap-3 right-[2rem] bottom-0">
+      <button
+        class="bg-[#F1F1F1] h-[50px] w-[50px] grid place-content-center rounded-full text-[#151515]  font-bold hover:bg-[#151515] hover:text-white transition-all duration-200">
+        <i class="material-icons">keyboard_arrow_left</i>
+      </button>
+      <button
+        class="bg-[#F1F1F1] h-[50px] w-[50px] grid place-content-center rounded-full text-[#151515]  font-bold hover:bg-[#151515] hover:text-white transition-all duration-200">
+        <i class="material-icons">keyboard_arrow_right</i>
+      </button>
+
+
+    </div>
+
+  </section>
+  <!-- ============Section8 ends ============ -->
+
+
+  <!--++++++++++++++++++ Section 9 starts++++++++++++++++++ -->
+  <section class="section container flex">
+
+    <div class=" flex-1 flex flex-col gap-[2rem] items-start justify-start">
+      <h1 class="container font-[500] text-[45px] leading-[50px] text-[#FF4C0D]">Часто задаваемые <br> вопросы</h1>
+
+      <p class=" w-[360px] text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+        Все ваши часто задаваемые вопросыо электросамокате Mi Scooter Pro 2.
+        Если у вас есть собственный вопрос - задайте его через форму обратной связи.
+      </p>
+
+      <button
+        class="bg-[#F1F1F1] h-[50px] px-[2rem] rounded-[65px] text-[#151515] leading-[24px] font-bold hover:bg-[#151515] hover:text-white transition-all duration-200">Задать
+        вопрос</button>
+
+    </div>
+
+    <div class="w-[660px]">
+      <!--  Card starts -->
+      <div class="card flex flex-col gap-[1rem] items-start justify-start  rounded-[15px] py-[1rem] cursor-pointer">
+
+        <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">
+          На него нужны права категории M?
+        </h2>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+          Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя других участников
+          движения.
+        </p>
+
+      </div>
+      <!--  Card ends -->
+      <!--  Card starts -->
+      <div class="card flex flex-col gap-[1rem] items-start justify-start  rounded-[15px] py-[1rem] cursor-pointer">
+
+        <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">
+          На него нужны права категории M?
+        </h2>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+          Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя других участников
+          движения.
+        </p>
+
+      </div>
+      <!--  Card ends -->
+      <!--  Card starts -->
+      <div class="card flex flex-col gap-[1rem] items-start justify-start  rounded-[15px] py-[1rem] cursor-pointer">
+
+        <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">
+          На него нужны права категории M?
+        </h2>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+          Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя других участников
+          движения.
+        </p>
+
+      </div>
+      <!--  Card ends -->
+      <!--  Card starts -->
+      <div class="card flex flex-col gap-[1rem] items-start justify-start  rounded-[15px] py-[1rem] cursor-pointer">
+
+        <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[50px] font-semibold card-before">
+          На него нужны права категории M?
+        </h2>
+
+        <p class="text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+          Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя других участников
+          движения.
+        </p>
+
+      </div>
+      <!--  Card ends -->
+    </div>
+
+  </section>
+  <!-- ++++++++++++++++++Section 9 ends++++++++++++++++++ -->
+
+
+  <!-- Section10 starts -->
+  <section class=" section relative container bg-[#151515] rounded-[15px] h-[550px]">
+    <div
+      class="bg-[url('./assets/ellipse.png')] top-0 bg-no-repeat bg-cover w-full h-full absolute p-[2rem] flex flex-col items-start justify-start gap-[2rem]">
+
+      <h1 class="container font-[500] text-[45px] leading-[50px] text-[#f1f1f1]">
+        Mi Electric Scooter Pro 2 <br>
+        <span class="text-[#FF4C0D] text-[36px]">54 990 ₽</span>
+      </h1>
+
+      <div class="border border-[#F1F1F1] h-[54px] rounded-[65px]">
+        <button class="bg-[#F1F1F1] h-full  text-[#151515] font-bold rounded-[65px] px-[35px]">Белый</button>
+        <button class="text-[#F1F1F1] font-bold px-[35px]">Черный</button>
+      </div>
+
+
+      <button
+        class="bg-[#FF4C0D] h-[50px] px-[2rem] rounded-[65px] text-[#f1f1f1] leading-[24px] font-bold hover:bg-[#f1f1f1] hover:text-[#222222] transition-all duration-200 mt-auto">
+        Купить</button>
+
+        <div class="flex flex-col gap-[1rem] w-[200px] absolute top-[2rem] right-[2rem]">
+          <h2 class="text-[20px] w-full relative text-[#F1F1F1] leading-[24px] font-semibold">Комплект поставки</h2>
+          <p class=" text-[14px] leading-[21px] text-[#f1f1f1] font-[400]">
+            Адаптер питания
+            Шестигранный ключ
+            Удлинитель для насоса
+            Винты x 5 шт.
+            Запасная шина
+            Руководство пользователя
+            Буклет с информацией
+          </p>
+        </div>
+
+
+    </div>
+
+   
+
+    <img src="./assets/bike2.png" alt="" class="absolute right-0 bottom-[0]">
+  </section>
+  <!-- Section10 ends -->
+
+
+  <!-- Footer starts -->
+  <footer class="bg-transparent h-[172px]">
+    <div class="container h-full flex items-center justify-between">
+      <p class="text-[14px] leading-[21px] font-[400] text-[#f1f1f1]">
+        © 2010 - 2021 Xiaomi.
+        <br>
+        Все права защищены.
+      </p>
+
+      <div class="flex flex-col items-center text-white">
+      <img class="w-[40px] h-[40px] object-cover rounded-full" src="./assets/portret.jpg" alt="My photo">
+      <h4 class="text-sm">Toshmurodov Abbos</h4>
+      <p class="text-[12px]">
+        <span class="text-yellow-500">Html & CSS</span>
+        <span class="text-rose-200">Front End</span>
+      </p>
+      <p class="text-[13px]">Telegram
+        <a class="hover:underline text-indigo-300" href="https://t.me/alex_offical_11" target="_blank">alex_offical_11</a>
+      </p>
+      </div>
+
+      <p class="text-[14px] leading-[21px] font-[400] text-[#f1f1f1] flex text-end">
+        8 800 775 66 15
+        <br>
+        Часы работы с 9:00 до 20:00 МСК, Пн. – Пт.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer ends -->
+
+
+
+</body>
+
+</html>

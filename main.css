@@ -1,0 +1,31 @@
+.container {
+	max-width: 1440px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.bg-dog {
+	background: linear-gradient(-120deg, rgba(252, 77, 29, 0.5) 15%, rgba(252, 80, 31, 0.2) 59.51%);
+	z-index: -1;
+}
+
+.section {
+	padding: 3rem 0;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+
+.card-before::before{
+	content:'';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 30%;
+	height: 3px;
+	background-color: #FF4C0D;
+	transition: all .3s;
+}
+.card:hover h2::before{
+	width: 100%;
+}
